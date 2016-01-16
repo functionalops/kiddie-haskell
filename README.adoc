@@ -1,0 +1,104 @@
+== Kiddie Haskell
+
+Project inception date: 2016-01-16 (Saturday January 16, 2016) @ ~1900h UTC.
+
+=== Purpose
+
+To provide an introductory kid-friendly open source online book to Haskell.
+
+_"Kid-friendly"_ does not just mean removing adult material so much as making
+the exercises (hopefully) interesting for children aged 5 through 14. YMMV
+with teaching children on the lower age of this spectrum.
+
+The author expects a number of adults will also appreciate some of the
+silliness of the exercises equally.
+
+The content should provide a motivation for why programming with static and
+strong types is a benefit and being able to demonstrate that fun and
+useful programs can be written just with pure functions and what properties
+of functional programming give the programmer immense expressive powers.
+
+=== Inspiration and Motivation
+
+While perusing books in her local library in the children's section with her
+five year old, the author found the book 'Ruby Wizardry: An introduction to
+programming for kids' by Eric Weinstein (no starch press).
+
+This online book is not a _port_ of that book by any means, but the idea
+and motivation comes from that sighting.
+
+The author's motivation is to provide material for a typed functional language
+for children, teens, or adults brand new to programming as this appears to be
+lacking (after conducting online research).
+
+=== Material and Topics
+
+Topics of the exercises will range from writing code to play bathroom sounds
+(which is always providing my 5 year old unbounded amusement), to writing
+programs to deal and play card games. The final exercise will be building
+a choose your own adventure game. (As of initial thoughts.)
+
+=== Curriculum
+
+The author would love to introduce the audience to an algebraic way of thinking
+to programming over mainstream languages without the formalisms up front. By
+showing first a practical motivation for choosing a more structured thought
+process to programming, the author hopes to alleviate some of the fears and
+anxiety from new programmers when introduced to mathematical notions.
+
+Specific ideas to be conveyed include:
+
+* Using algebraic properties (e.g. associativity, idempotency, etc.) to help
+  construct more meaningful programs and to reason about the implications of
+  program designs using them.
+* Using algebraic data types to express the basic domain structure of a
+  program for "closed types". Exploring (informally) how and when to use
+  this type of construction.
+* Offering a practical introduction to equational reasoning by re-arranging
+  type signatures (much like algebraic equations or inequalities).
+* Defining typeclass instances to _extend_ existing types.
+* An informal introduction to finite state machines (FSMs) and different ways
+  to represent and use FSMs in a typed functional language like Haskell.
+
+Each of these topics will be presented in an informal way. When formal
+terminology is introduced the elaboration of that topic will be elective for
+the teacher and/or learner to explore if desired.
+
+=== Author
+
+At the moment this is just a weekend project by Susan Potter. She has been
+developing software professionally for 17 years, though mostly in mainstream
+imperative languages. In the last 8-9 years she has been more and more
+involved in typed functional programming languages such as Haskell, and Scala.
+
+She is currently learning Idris (which she thinks is amazing) but Haskell
+seems a more appropriate language due to maturity and existing community. She
+briefly considered Scala as a teaching language, but considers the JVM
+ecosystem too complex from a dev tooling, and runtime perspective for younger
+learners.
+
+Prior to her functional programming awakening she was obsessed with object
+oriented languages like Java, C++, Python, and especially Ruby (yes, it's
+true).
+
+In terms of educating the next generation of programmers, she thinks it is
+very important to impart the importance of structured thought processes
+and highlight how and when that structure and rigor is helpful as well as how
+these structured thought patterns do not limit the ability to be creative in
+meaningful ways. She hopes she can accomplish a tiny amount of this through
+this side project.
+
+She gladly accepts any help from reviewers, co-authors, or other kinds of
+contributors to this project.
+
+=== Licensing
+
+The material (code and accompanying text) will be publicly accessible (online)
+at no charge for anyone to use for teaching or learning.
+
+As such the textual content of this book will be published under the license
+link:http://creativecommons.org/licenses/by-nc-sa/4.0/[
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)]
+
+All code examples will be licensed under the BSD 3-clause license. See
+link:LICENSE[] for more details.
